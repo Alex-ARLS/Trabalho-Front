@@ -13,7 +13,7 @@
         header {
             background-color: #f0f0f0;
             padding: 20px;
-            text-align: content;
+            text-align: center;
         }
         .container {
             width: 80%;
@@ -33,25 +33,30 @@
             margin-top: 20px;
             color: #2c78af;
         }
-        .image-placeholder {
-            width: 100%;
-            height: 300px;
-            background-color: #e0e0e0;
-            text-align: center;
-            line-height: 300px;
-            color: #888;
-            margin-bottom: 20px;
-        }
         .content {
             font-size: 1em;
             line-height: 1.6;
             color: #333;
+            margin-bottom: 40px; /* Ajusta o espaçamento entre seções */
+        }
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
         footer {
             background-color: #333;
             color: white;
             padding: 20px;
             text-align: center;
+            font-size: 0.9em;
+            margin-top: 40px; /* Adiciona espaço no topo do rodapé */
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer .address {
+            margin-top: 10px;
             font-size: 0.9em;
         }
     </style>
@@ -64,10 +69,10 @@
     <div class="container">
         <h1>Escola Agrícola de Jundiaí</h1>
         <h2>Apresentação</h2>
-        <img src="EAJ.png" alt="Fachada da Escola Agrícola de Jundiaí">
 
-            
-        </div>
+        <!-- Imagem da fachada -->
+        <img src="EAJ.PNG" alt="Fachada da Escola Agrícola de Jundiaí">
+
         <div class="content">
             <p>A Escola Agrícola de Jundiaí - Unidade Acadêmica Especializada em Ciências Agrárias integra a estrutura acadêmica e administrativa da Universidade Federal do Rio Grande do Norte - UFRN, estando definida, nos termos do art. 7º do Estatuto da UFRN, como unidade das atividades de ensino, pesquisa e extensão em ciências agrárias.</p>
             <p>A EAJ fornece suporte à execução de atividades acadêmicas de ensino, pesquisa e extensão. Possui como objetivo tornar-se, a médio e longo prazo, um Centro de Excelência em Ciências Agrárias. Nesse sentido, a unidade promove integração entre as suas várias subáreas de conhecimento, estruturando bases e grupos de pesquisa voltados especialmente ao desenvolvimento tecnológico das cadeias produtivas agroalimentares e agroindustriais.</p>
@@ -89,6 +94,12 @@
     <footer>
         <p>EAJ Copyright 2019 - Todos os direitos reservados.</p>
         <p>Desenvolvido por: Taniro Rodrigues</p>
+        <!-- Adicionando o endereço no rodapé -->
+        <div class="address">
+            <p>RN 160 - Km 02 - Distrito de Jundiaí - Macaíba/RN</p>
+            <p>CEP: 59280-000 - Tel.: (84) 3342-4800</p>
+            <p>CNPJ: 24.038.239/0001-97</p>
+        </div>
     </footer>
 </body>
 </html>
